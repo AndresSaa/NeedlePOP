@@ -1,6 +1,50 @@
+@import 'fonts.css';
 body {
   background: #eecd80;
+  font-size: 16px;
 }
 .container {
   background: #eecd80;
+}
+header h1 {
+  background: #555;
+  color: #ffd90f;
+  font-family: 'Pusab';
+  font-size: 5rem;
+  margin: 0;
+  padding: 4rem 0;
+  text-align: center;
+}
+section#index .logo-index {
+  background: #c4c6c6;
+  height: 20rem;
+  width: 100%;
+}
+section#index .buttons {
+  margin-top: 3rem;
+}
+section#index .buttons button {
+  background: #ffd90f;
+  border: 0;
+  -webkit-border-radius: 1.2rem;
+  border-radius: 1.2rem;
+  color: #846212;
+  display: block;
+  font-family: 'Vitamin';
+  font-size: 3rem;
+  margin: 0 auto 2rem;
+  min-width: 10rem;
+  padding: 1rem 2rem;
+  -webkit-transition: all 0.15s ease;
+  -moz-transition: all 0.15s ease;
+  -o-transition: all 0.15s ease;
+  -ms-transition: all 0.15s ease;
+  transition: all 0.15s ease;
+}
+section#index .buttons button:hover {
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
 }

@@ -1,0 +1,20 @@
+@font-face{ 
+	font-family: 'Pusab';
+	src: url('../fonts/pusab/Pusab.eot');
+	src: url('../fonts/pusab/Pusab.eot?iefix') format('eot'),
+	     url('../fonts/pusab/Pusab.woff') format('woff'),
+	     url('../fonts/pusab/Pusab.ttf') format('truetype'),
+	     url('../fonts/pusab/Pusab.svg#webfont') format('svg');
+}
+
+@font-face {
+    font-family: 'Vitamin';
+    src: url('../fonts/vitamin/VITAMIN_-webfont.eot');
+    src: url('../fonts/vitamin/VITAMIN_-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/vitamin/VITAMIN_-webfont.woff') format('woff'),
+         url('../fonts/vitamin/VITAMIN_-webfont.ttf') format('truetype'),
+         url('../fonts/vitamin/VITAMIN_-webfont.svg#vitaminregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
