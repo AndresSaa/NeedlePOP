@@ -1,19 +1,33 @@
-@font-face{ 
-	font-family: 'Pusab';
-	src: url('../fonts/pusab/Pusab.eot');
-	src: url('../fonts/pusab/Pusab.eot?iefix') format('eot'),
-	     url('../fonts/pusab/Pusab.woff') format('woff'),
-	     url('../fonts/pusab/Pusab.ttf') format('truetype'),
-	     url('../fonts/pusab/Pusab.svg#webfont') format('svg');
+@font-face {
+    font-family: 'OpenSansCond';
+    src: url('../fonts/opensans/OpenSans-Cond.eot');
+    src: url('../fonts/opensans/OpenSans-Cond.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensans/OpenSans-Cond.woff') format('woff'),
+         url('../fonts/opensans/OpenSans-Cond.ttf') format('truetype'),
+         url('../fonts/opensans/OpenSans-Cond.svg##open_sanscondensed_light') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'OpenSansCondBold';
+    src: url('../fonts/opensans/OpenSans-CondBold.eot');
+    src: url('../fonts/opensans/OpenSans-CondBold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensans/OpenSans-CondBold.woff') format('woff'),
+         url('../fonts/opensans/OpenSans-CondBold.ttf') format('truetype'),
+         url('../fonts/opensans/OpenSans-CondBold.svg##open_sanscondensed_bold') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
 
 @font-face {
-    font-family: 'Vitamin';
-    src: url('../fonts/vitamin/VITAMIN_-webfont.eot');
-    src: url('../fonts/vitamin/VITAMIN_-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/vitamin/VITAMIN_-webfont.woff') format('woff'),
-         url('../fonts/vitamin/VITAMIN_-webfont.ttf') format('truetype'),
-         url('../fonts/vitamin/VITAMIN_-webfont.svg#vitaminregular') format('svg');
+    font-family: 'Bebas';
+    src: url('../fonts/bebas/BebasNeue.eot');
+    src: url('../fonts/bebas/BebasNeue.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/bebas/BebasNeue.woff') format('woff'),
+         url('../fonts/bebas/BebasNeue.ttf') format('truetype'),
+         url('../fonts/bebas/BebasNeue.svg#bebas_neueregular') format('svg');
     font-weight: normal;
     font-style: normal;
 

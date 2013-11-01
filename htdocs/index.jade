@@ -20,23 +20,23 @@ html(lang="es")
 
 	body
 
-		header
-			h1 NeedlePOP!
+		#container
 
-		section#index
+			#characters
 
-			div.logo-index
+			header
+				.logo
+				h1 NeedlePOP!
 
-			div.buttons
-				button start
-				button exit
+			section#index
+
+				div.buttons
+					a(href="intro.html").btn.btn-blue.btn-next start
+					a(href="#").btn.btn-red.btn-next exit
 
 
-		footer
+			footer
 
 		//- jQuery JS
-		script(src='js/jquery-2.0.3.min.js')
-		script(src='js/swig.min.js')
-		script(src='js/undercore.min.js')
-		script(src='js/backbone.min.js')
-		script(src='js/backbone.min.js')
+		script(src='js/vendor/jquery-2.0.3.min.js')
+	
